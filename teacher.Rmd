@@ -1,0 +1,86 @@
+---
+title: "Ogun State Train the teachers Programme"
+institute: "Data Science Nigeria"  
+date: 'April 28, 2021'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: title-page, center, middle
+
+## Ogun State Train the teachers Programme
+
+### Data Science Nigeria
+
+#### April 28, 2021
+
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "DSN.jpg", width = "180px",
+  height = "200px",
+  position =xaringanExtra::css_position(top = "2em", right = "2em"),
+  link_url = NULL,
+  exclude_class = c("inverse", "hide_logo")
+)
+```
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+
+# Loaded packages
+
+install.load::install_load(c("knitr", "xaringanExtra", "xaringan", "tidyverse", "kableExtra", "countdown"))
+
+xaringanExtra::use_xaringan_extra(include = c("tile_view", "editable", "share_again", "broadcast", "animate_css", "panelset", "tachyons", "fit_screen", "clipboard", "search", "scribble", "freezeframe"))
+
+```
+---
+
+class: middle, inverse
+
+## Google Colab
+
+## https://colab.research.google.com/
+
+---
+
+class: center, middle
+
+background-image: url(teacher1.png)
+background-size: cover
+background-position: 50% 50%
+
+--
+
+.pull-right[
+
+# Quiz
+
+## https://bit.ly/Ogun-teachers
+
+
+]
+
+--
+
+```{r, echo=FALSE}
+countdown(minutes = 15, seconds = 42, right = 0)
+```
